@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  margin: 0 auto;
+}
+.header-container{
+  background: #2F80ED;
+}
+.header{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.header-button{
+  font-size: 15px;
+  text-align: center;
+  margin-right: 10px;
+  background: rgb(54, 133, 238);
+}
+.cerveza{
+  width: 60%;
+  margin-top: 8%;
+  background: white;
+}
+.titulo{
+  padding-left: 3px;
+  
+  background: #2F80ED;
+  color: white;
+}
+.titulo p {
+  
+  margin-top: 5px;
+  text-align: justify;
+}
+.img{
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.texto{
+  margin-top: 25px;
+}
+.texto p {
+
+}

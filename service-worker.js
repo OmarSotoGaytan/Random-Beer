@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/OmarSotoGaytan/Random-Beer/precache-manifest.4f335108c88444b4047e653705efc7d9.js"
+  "/Random-Beer/precache-manifest.5594bf5c2d1f0bd76fbdadf1a4376e95.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/OmarSotoGaytan/Random-Beer/index.html", {
+workbox.routing.registerNavigationRoute("/Random-Beer/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
